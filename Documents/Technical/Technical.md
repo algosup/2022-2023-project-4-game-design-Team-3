@@ -82,7 +82,7 @@ The latest updated version is 5.1, but our game is using the 4.27.2 version avai
 
 ## 2.2. Development Tools
 
-For this game, we have used the provided 2D Side Scroller template to build our level.
+For this game, we have used the provided 2D Side Scroller template to build our level in Unreal Engine.
 
 ### Blueprints
 
@@ -94,9 +94,15 @@ For this game, we have used the provided 2D Side Scroller template to build our 
 ## 3.1. Core Mechanics
 We play as Kazuo, the game's main protagonist, where we travel through a 2D scrolling level. 
 
-Walking: the player move either on the right or on the left in order to progress.
+Walking: the player move either on the right or on the left in order to progress. If he walk towards a wall, he will still have his walking animation without really moving.
 
 Jumping: the player can jump to reach a higher place, or jump above an enemy to avoid him. He can jump vertically, but he can also jump diagonally if he also move on the left/right during his jump animation.
+
+Attacking: the player takes his katana and swings it a front of him, extending his attack hitbox in order to touch his enemies. He has the possibility to attack several times to trigger different sword animations (and perhaps different hitboxes) and create combos.
+
+Dashing: When the player is moving, he can also dash to move faster. This mechanic is useful when the player want to progress at a faster rhythm, and in situations when the path is clear. He can also jump while dashing before landing on the ground and continuing to run.
+
+Crouch: The player can crouch, so he will have a kneeling animation. As a result, his hitbox's height will be reduced, and this could allow him to avoid projectiles sent by enemies.
 
 ## 3.2. Character Physics
 
