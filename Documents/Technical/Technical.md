@@ -38,10 +38,13 @@ This is a hardcore game where the player has only one life and will have to star
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                       |                                       FABGen i                                       |
 | <span id="Game Engine">Game Engine</span>                                                                 |        Bindings r.        |
-| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>               |                          F# is an object-oriented language which means it can associate a block of a program to a concept, F# is widely used to make multiple languages work together.                           |
-| <img src="./Images/CppLogo.png" width="30" height="30" /><span id="C++">C++</span>                  |                                                               C++ is a high-level programming language, as F#, C++ is an object-oriented language.                                                               |
-| <img src="./Images/PythonLogo.png" width="30" height="30" /><span id="Python">Python</span>         |            Like C++, Python is a high-level language, this language is widely used inside the programming community for his simplicity to use parts of code called libraries which are made by users.            |
-| <img src="./Images/HarfangLogo.png" width="30" height="30" /><span id="Harfang3D">Harfang 3D</span> | Harfang 3D is a French company based in Orléans with the objective to create a 3D engine for industrial companies and purposes less explored by his concurrence. Harfang 3D is also the name of their 3D engine. |
+                          |
+| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>                  |                                                               C++ is a high-level and object-oriented programming language.                                                               |
+| <span id="Blueprint">Blueprint</span>         |            Like .            |
+| <span id="Level Design">Level Design</span> | Harfang 3D . |
+| <span id="Mechanics">Mechanics</span> | Harfang 3D . |
+| <span id="Systems">Systems</span> | Harfang 3D . |
+| <span id="Hardcore">Hardcore</span> | Harfang 3D . |
 
 
 # Product
