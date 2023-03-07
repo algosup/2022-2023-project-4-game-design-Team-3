@@ -36,10 +36,10 @@ This is a hardcore game where the player has only one life and will have to star
 
 | word                                                                                                |                                                                                                    definition                                                                                                    |
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |                                       FABGen is              |
-| <span id="Game Engine">Game Engine</span>                                                               |        Bindings       |
-| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level programming language, as F#, C++ is an object-oriented language.                             |
-| <span id="Blueprint">Blueprint</span>                  |                                                               C++ is a                                                               |
+| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |   Real-Time 3D graphics game engine developed by epic Games              |
+| <span id="Game Engine">Game Engine</span>                                                               |        Software framework primarily used for the development of video games.       |
+| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level and object-oriented programming language.                             |
+| <span id="Blueprint">Blueprint</span>                  |                                                              Complete gameplay scripting system based on the concept of using a node-based interface for creating gameplay elements from within Unreal Editor.a                                                               |
 | <span id="Level Design">Level Design</span>         |            Like             |
 | <span id="Mechanics">Mechanics</span> | Harfang 3D  |
 | <span id="Systems">Systems</span> | Harfang 3D  |
@@ -59,13 +59,27 @@ This amazing software enable creators across industries to deliver cutting-edge 
 
 The latest updated version is 5.1, but our game is using the 4.27.2 version available on the Epic games launcher.
 
-### Features used
+### Scene
+
+For this game, we have used the provided 2D Side Scroller template to build our level.
+
+### Blueprints
+
+### Assets used
+
+### Memory Management
+
+The
+
 
 ## Assumptions
 
 ### Risks
+-It's possible that we have some issues with the boss battles, as it involves several game elements (characters models, Higher Hp, fixed camera...)
+
 
 ### Constraints
+-The computers we used (Windows11 Thinkbook and Macbook Air Ventura) might experience processor's problems for compiling Unreal Engine scenes. As a consequence, we may have difficulties to push our scenes in Github. 
 
 ## Security
 
