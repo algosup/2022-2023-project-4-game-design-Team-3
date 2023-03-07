@@ -39,11 +39,11 @@ This is a hardcore game where the player has only one life and will have to star
 | <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |   Real-Time 3D graphics game engine developed by epic Games              |
 | <span id="Game Engine">Game Engine</span>                                                               |        Software framework primarily used for the development of video games.       |
 | <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level and object-oriented programming language.                             |
-| <span id="Blueprint">Blueprint</span>                  |                                                              Complete gameplay scripting system based on the concept of using a node-based interface for creating gameplay elements from within Unreal Editor.a                                                               |
-| <span id="Level Design">Level Design</span>         |            Like             |
-| <span id="Mechanics">Mechanics</span> | Harfang 3D  |
-| <span id="Systems">Systems</span> | Harfang 3D  |
-| <span id="Hardcore">Hardcore</span> | Harfang 3D  |
+| <span id="Blueprint">Blueprint</span>                  |                                                              Complete gameplay scripting system based on the concept of using a node-based interface for creating gameplay elements from within Unreal Editor.                                                               |
+| <span id="Level Design">Level Design</span>         |            Game design process involving the creation of video games levels.             |
+| <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
+| <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
+| <span id="Hardcore">Hardcore</span> | Type of game that requires a high user input and time investment in order for users to be successful.  |
 
 
 # Product
@@ -66,6 +66,10 @@ For this game, we have used the provided 2D Side Scroller template to build our 
 ### Blueprints
 
 ### Assets used
+
+-FREE SAMURAI PIXEL ART SPRITE SHEETS (https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)
+
+
 
 ### Memory Management
 
