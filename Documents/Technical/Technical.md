@@ -92,6 +92,11 @@ For this game, we have used the provided 2D Side Scroller template to build our 
 # 3. Game Mechanics
 
 ## 3.1. Core Mechanics
+We play as Kazuo, the game's main protagonist, where we travel through a 2D scrolling level. 
+
+Walking: the player move either on the right or on the left in order to progress.
+
+Jumping: the player can jump to reach a higher place, or jump above an enemy to avoid him. He can jump vertically, but he can also jump diagonally if he also move on the left/right during his jump animation.
 
 ## 3.2. Character Physics
 
@@ -109,8 +114,24 @@ For this game, we have used the provided 2D Side Scroller template to build our 
 # 5. User Interface
 
 ## 5.1. Menus
-
+The game opens on a main menu, showing the character artwork and 3 choices:
+-Start Game: allows you to load the game before to start playing
+-Options: lead you to another menu for changing sound, etc...
+-Credits: lead you to a credits menu showing the name of those who worked on the project.
 ## 5.2. Controls
+The game is played on PC, so you use the keyboard keys to play the game.
+
+Right Key: allows your character to move on the right.
+
+Left Key: allows your character to move on the left.
+
+Down Key: allows your character to crouch.
+
+Space Key: allows your character to jump. If used in midair, he performs a double jump.
+
+Shift Key: used while your characer is moving, allows him to sadh in order to have a higher moving speed.
+
+Left Mouse Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
 
 ## 5.3. HUD Elements
 
@@ -121,6 +142,9 @@ For this game, we have used the provided 2D Side Scroller template to build our 
 ## 6.1. Performance
 
 ## 6.2. Memory Usage
+Dealing with the memory used for creating our game will be important. Indeed, we want to avoid having issues when pushing the game's codes and files in github. So, the game's performance must remain almost untouched when transferring data in the main branch of our project.
+
+
 
 # 7. Glossary
 
