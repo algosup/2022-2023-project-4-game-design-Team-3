@@ -130,7 +130,11 @@ To keep track of all reported bugs, a **Google Sheets database** has been create
 
 When accessing the database, testers should enter their name, the version of the game they are testing, and the results they obtained during testing. 
 <br>
-Any bugs that are discovered should also be entered into the database, along with their priority level and any relevant information. The development team will use this database to track and address all reported bugs.
+In addition to the Google Sheets database, an automated bug reporting system has been implemented. Whenever a test is marked as "failed" in the database, an email notification will be sent automatically to the software engineering team. This will ensure that bugs are promptly addressed and that the development process remains efficient.
+<br><br>
+Testers should prioritize entering accurate and detailed information in the bug reporting database. This will help the development team to identify and address bugs more efficiently, leading to a higher quality game.
+<br><br>
+By using both the bug reporting database and automated notification system, the development team can ensure that all reported bugs are addressed promptly, leading to a smoother and more efficient development process.
 
 
 
