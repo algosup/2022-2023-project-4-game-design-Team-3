@@ -14,7 +14,39 @@
 <details>
 <summary>Table of contents</summary>
 
-- [Introduction](#introduction)
+
+- [Ronin's Revenge Technical Specifications](#Overview)
+
+- [1. Presentation](#1-presentation)
+  - [1.1. Overview](##1.1-overview)
+  - [1.2. The game](##1.2-the-game)
+
+- [2. Technologies used](#2-technologies-used)
+  - [2.1. Game Engine](##2.1-game-engine)
+  - [2.2. Development Tools ](##2.2-development-tools)
+  - [2.3. 3rd Party Softwares/libraries ](##2.3-3rd-party-softwares/libraries)
+
+- [3. Game Mechanics](#3-game-mechanics)
+  - [3.1. Core Mechanics](##3.1-core-mechanics)
+  // Needs details
+  - [3.2. Character Physics](##3.2-character-physics)
+  - [3.3. Level Settings ](##3.3-level-settings)
+
+- [4. Game Assets](#4-game-assets)
+
+- [5. User Interface](#5-user-interface)
+  - [5.1. Menus](##5.1-menus)
+  - [5.2. Controls](##5.2-controls)
+  // Needs details
+  - [5.3. HUD Elements](##5.3-hud-elements)
+
+- [6. Optimization](#6-optimization)
+  - [6.1. Performance](##6.1-performance)
+  - [6.2. Memory Usage](##6.2-memory-usage)
+
+
+- [7. Glossary](#7-glossary)
+
 
 </details>
 
