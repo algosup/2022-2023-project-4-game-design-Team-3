@@ -47,6 +47,18 @@ This is a hardcore game where the player has only one life and will have to star
 | <span id="Hardcore">Hardcore</span> | Harfang 3D . |
 
 
+| word                                                                                                |                                                                                                    definition                                                                                                    |
+| --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |                                       FABGen is a script written in Python made to create C++ to allow users to code with multiple languages such as Python, Go, and Lua.                                        |
+| <span id="Game Engine">Game Engine</span>                                                               |        Bindings refer to the way in which two languages can access and use functionalities of another language. It allows the exchange of data and their functionalities, enabling them to work together.        |
+| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          F# is an object-oriented language which means it can associate a block of a program to a concept, F# is widely used to make multiple languages work together.                           |
+| <span id="Blueprint">Blueprint</span>                  |                                                               C++ is a high-level programming language, as F#, C++ is an object-oriented language.                                                               |
+| <span id="Level Design">Level Design</span>         |            Like C++, Python is a high-level language, this language is widely used inside the programming community for his simplicity to use parts of code called libraries which are made by users.            |
+| <span id="Mechanics">Mechanics</span> | Harfang 3D is a French company based in Orléans with the objective to create a 3D engine for industrial companies and purposes less explored by his concurrence. Harfang 3D is also the name of their 3D engine. |
+| <span id="Systems">Systems</span> | Harfang 3D is a French company based in Orléans with the objective to create a 3D engine for industrial companies and purposes less explored by his concurrence. Harfang 3D is also the name of their 3D engine. |
+| <span id="Hardcore">Hardcore</span> | Harfang 3D is a French company based in Orléans with the objective to create a 3D engine for industrial companies and purposes less explored by his concurrence. Harfang 3D is also the name of their 3D engine. |
+
+
 # Product
 
 ## Software
