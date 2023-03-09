@@ -20,9 +20,15 @@
   - [Platform](#platform)
 - [Gameplay Elements](#gameplay-elements)
   - [Controls](#controls)
+- [User Interface](#user-interface)
+  - [Main Menu](#main-menu)
+  - [Settings Menu](#settings-menu)
+  - [Pause Menu](#pause-menu)
+  - [Game Over Screen](#game-over-screen)
 - [Story](#story)
   - [Game's Story](#games-story)
   - [Characters](#characters)
+- [Future Features](#future-features)
 </details>
 
 # Introduction
@@ -41,10 +47,10 @@ The game is primarily aimed at players who enjoy challenging, skill-based games 
 | Xavier  | 45  | Completionist Gamer | This persona is someone who is driven to collect every item, achieve every goal, and explore every corner of the game world. They are looking for a game with a deep and rewarding progression system that offers a sense of accomplishment and fulfillment for their efforts.                                                    |
 
 ## Platform
-The game will be developed for PC, with the possibility of porting it to other platforms in the future. The game will be developed using the Unreal Engine game engine, which will allow for easy porting to other platforms.
+The game will be developed for Windows and MacOS. The game will be developed using the Unreal Engine game engine.
 
 # Gameplay Elements
-1. Combat: The core gameplay of the game revolves around combat, in which the player controls a samurai who must fight hordes of enemies. The combat system includes simple keystrokes for basic attacks and more complex combos for advanced moves. 
+1. Combat: The core gameplay of the game revolves around combat, in which the player controls a samurai who must fight hordes of enemies. The combat system includes simple input as the 'Left Click' button for basic attacks and click many times on the same button to continue the combo. 
 2. Movement: Players must use a combination of running, double jumping, and dodging to navigate different levels filled with obstacles and enemies. The movement system features smooth animations and responsive controls, giving Samurai a greater sense of control over his character. 
 3. Enemies: The game features 2 types of enemies, each with their own attack patterns, strengths, and weaknesses. Players must learn to counter and defeat each type of enemy in order to progress through the levels. 
 4. Boss Battles: At the end of each level, players can face powerful bosses with moves and attacks. Boss fights allow players to use all their skills and knowledge of game mechanics to emerge victorious. 
@@ -55,6 +61,15 @@ The game will be developed for PC, with the possibility of porting it to other p
 2. Attack: Player can use the 'Left Click' button to attack. The samurai can perform a basic attack by tapping on the 'Left Click' button. The samurai can also perform a combo attack by cliking the 'Left Click' button many times.
 4. Dash: Players can perform a dash move by tapping on the 'Shift' button Dash allows the player to quickly dodge incoming attacks and move faster around the screen.
 
+# User Interface
+##  Main Menu
+The main menu is the first screen that players see when they launch the game. It displays the game's title and logo, as well as a button to start the game. It also displays a button to access the game's settings, wich allows the player to adjust the game's audio and video settings. The main menu also displays a button to quit the game. To access fot these buttons, the player can use the mouse or the keyboard.
+## Settings Menu
+The settings menu is the screen that players see when they click on the settings button on the main menu. It allows the player to adjust the game's audio and video settings. The settings menu also displays a buttont to return to the main menu. To access these buttons, the player can use the mouse or the keyboard.
+## Pause Menu
+The pause menu is the screen that players see when they pause the game using the 'P' button. It displays a button to resume the game, a button to restart the game, a button to access to the settings menu and a button to quit the game and return to the main menu. To access these buttons, the player can use the mouse or the keyboard.
+## Game Over Screen
+The game over screen is the screen that players see when they died or of if the time limit is over. It displays a button to restart the game and a button to quit the game and return to the main menu. To access these buttons, the player can use the mouse or the keyboard.
 # Story
 
 ## Game's Story
@@ -67,3 +82,5 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 ## Characters
 1. Kazuo: Kazuo is the main character and protagonist of the game. He is a skilled and honorable samurai who was betrayed by his Lord and falsely accused of treason. Kazuo is determined to seek revenge against his former Lord and restore his honor, even if it means risking his own life in the process.
 2. Akira: Kazuo's former Lord is the main antagonist of the game. He is a powerful and wealthy feudal lord who rules over a vast empire with an iron fist. His betrayal of Kazuo was a calculated and ruthless move, designed to eliminate any potential threats to his power.
+
+# Future Features
