@@ -84,3 +84,8 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 2. Akira: Kazuo's former Lord is the main antagonist of the game. He is a powerful and wealthy feudal lord who rules over a vast empire with an iron fist. His betrayal of Kazuo was a calculated and ruthless move, designed to eliminate any potential threats to his power.
 
 # Future Features
+
+For the future of this game we can add some new features:
+  + We can add new levels that you can play after finishing the main game. New levels can be released from free DLC or released 1 by 1.
+  + For the new level we can introduce new playable character with different weapons or way to achieve the end of the game.
+  + We could also release the game on different consoles such as the Playstation 4 and 5, Xbox One, Series or Switch. Indeed the gameplay style is perfectly suited to a game style with a controller.
