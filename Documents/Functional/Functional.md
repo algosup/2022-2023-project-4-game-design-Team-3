@@ -90,10 +90,12 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 ## Character Design
 | Role | Sprite | Description |
 |------|--------|-------------|
-| Kazuo  | <img src="/Documents/Functional/Images/Samurai_idle.png.jpg" alt="Kazuo" width="100" height="100"> |             |
-| Akira  |            |             |
+| Kazuo  | <img src="/Documents/Functional/Images/Samurai_idle.png.jpg" alt="Kazuo" width="100" height="100"> |             |             |
 | Samurai Monk ennemy 1   |<img src="/Documents/Functional/Images/Samurai_Monk.png" alt="Samurai Monk Ennemy 1" width="100" height="100">|             |
 | Ninja Monk ennemy 2  |<img src="/Documents/Functional/Images/Ennemy_2.png" alt="Ninja Monk Ennemy 2" width="100" height="100"> |             |
+| Onre Boss 1  | <img src="/Documents/Functional/Images/Onre.png" alt="Onre" width="100" height="100"> |             |
+| Gotoku Boss 2  | <img src="/Documents/Functional/Images/Gotoku.png" alt="Gotoku" width="100" height="100"> |             |
+| Akira  |<img src="/Documents/Functional/Images/Akira.png" alt="Akira" width="100" height="100">|
 ## Level Design
 # Future Features
 
