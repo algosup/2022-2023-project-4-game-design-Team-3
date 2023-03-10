@@ -90,13 +90,18 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 ## Character Design
 | Role | Sprite | Description |
 |------|--------|-------------|
-| Kazuo  | <img src="/Documents/Functional/Images/Samurai_idle.png.jpg" alt="Kazuo" width="100" height="100"> | He is the main character of our game. He is a samurai and his goal is to take his revenge without dying. |             |
+| Kazuo Main Character | <img src="/Documents/Functional/Images/Samurai_idle.png.jpg" alt="Kazuo" width="100" height="100"> | He is the main character of our game. He is a samurai and his goal is to take his revenge without dying. |             |
 | Samurai Monk ennemy 1   |<img src="/Documents/Functional/Images/Samurai_Monk.png" alt="Samurai Monk Ennemy 1" width="100" height="100">| He is the first type of ennemy you have to beat to access to the end of the game. |
 | Ninja Monk ennemy 2  |<img src="/Documents/Functional/Images/Ennemy_2.png" alt="Ninja Monk Ennemy 2" width="100" height="100"> | He is the second type of ennemy you to beat to access to the end of the game. |
 | Onre Boss 1  | <img src="/Documents/Functional/Images/Onre.png" alt="Onre" width="100" height="100"> | It is the first boss you have to beat to access to the end of the first level and to start the second one. |
 | Gotoku Boss 2  | <img src="/Documents/Functional/Images/Gotoku.png" alt="Gotoku" width="100" height="100"> | It is the second boss you have to beat to access to the end of the second level and to start the last one. |
 | Akira Final Boss |<img src="/Documents/Functional/Images/Akira.png" alt="Akira" width="100" height="100">| She is the lord of your character, Kazuo. She betrayed you and make a pact with the devil to acquire more power and notoriety. |
 ## Level Design
+| Level   | Picture | Description |
+|---------|---------|-------------|
+| Level 1 |         |             |
+| Level 2 |         |             |
+| Level 3 |         |             |
 # Future Features
 
 For the future of this game we can add some new features:
