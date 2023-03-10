@@ -28,6 +28,9 @@
 - [Story](#story)
   - [Game's Story](#games-story)
   - [Characters](#characters)
+- [Design](#design)
+  - [Character Design](#character-design)
+  - [Level Design](#level-design)
 - [Future Features](#future-features)
 </details>
 
@@ -83,6 +86,15 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 1. Kazuo: Kazuo is the main character and protagonist of the game. He is a skilled and honorable samurai who was betrayed by his Lord and falsely accused of treason. Kazuo is determined to seek revenge against his former Lord and restore his honor, even if it means risking his own life in the process.
 2. Akira: Kazuo's former Lord is the main antagonist of the game. He is a powerful and wealthy feudal lord who rules over a vast empire with an iron fist. His betrayal of Kazuo was a calculated and ruthless move, designed to eliminate any potential threats to his power.
 
+# Design
+## Character Design
+| Role | Sprite | Description |
+|------|--------|-------------|
+| Kazuo  | <img src="/Documents/Functional/Images/Samurai_idle.png.jpg" alt="Kazuo" width="100" height="100"> |             |
+| Akira  |            |             |
+| Samurai Monk ennemy 1   |<img src="/Documents/Functional/Images/Samurai_Monk.png" alt="Samurai Monk Ennemy 1" width="100" height="100">|             |
+| Ninja Monk ennemy 2  |<img src="/Documents/Functional/Images/Ennemy_2.png" alt="Ninja Monk Ennemy 2" width="100" height="100"> |             |
+## Level Design
 # Future Features
 
 For the future of this game we can add some new features:
