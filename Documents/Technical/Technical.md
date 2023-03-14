@@ -107,14 +107,14 @@ Crouch: The player can crouch, so he will have a kneeling animation. As a result
 ## 3.2. Character Physics
 
 ## 3.3. Level Settings
+The character move through a serie of levels, containing enemies and platforms.
+
+To go to the next level, the player either has to kill every foes of the level or reach a certain point. Then, he will be instantly teleported at the next level.
 
 
 # 4. Game Assets
 
 -FREE SAMURAI PIXEL ART SPRITE SHEETS (https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)
-
-
-
 
 
 # 5. User Interface
@@ -140,6 +140,16 @@ Shift Key: used while your characer is moving, allows him to sadh in order to ha
 Left Mouse Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
 
 ## 5.3. HUD Elements
+To guide the player, there are 3 pieces of data displayed on screen during gameplay:
+
+-The time: always located at 3/4 of the height of the screen in the middle, it gives the player information about the remaining time.
+Either it acts as a warning timecode, telling the player how much he has left to complete the level before a game over occurs, either it just indicate how much time he must wait before going to the next level.
+
+-The enemy counter: on the top-right corner, a number is constantly displayed in some levels. 
+It represents the number of enemies the player must kill in order to complete the level. The number decreases by 1 each time an enemy is defeated, and if it hits 0, the player will teleport to the next level.
+
+-Level results: it is located in the middle of the screen. However, it only appears in certain conditions depending on the player actions. Indeed, it displays "WIN" when he manages to finish a panel, or "GAME OVER" if he is defeated or has no time left.
+
 
 
 
