@@ -61,7 +61,7 @@ The goal of this project gives us more freedom than the previous ones: we need t
 
 The game in question is called Ronin's Revenge. 
 
-This is a 2D side scroller action game where you play as a samurai named Kazuo during feudal Japan's era. The player's objective is to cross a level where he must defend himself against enemies with his katana. 
+This is a 2D side scroller action game where you play as a samuraï named Kazuo during feudal Japan's era. The player's objective is to cross a level where he must defend himself against enemies with his katana. 
 
 This is a hardcore game where the player has only one life and will have to start all over again in case of a Game Over. In addition, he has a time limit of 10 minutes to reach the end of the game without getting killed.
 
@@ -105,6 +105,20 @@ Dashing: When the player is moving, he can also dash to move faster. This mechan
 Crouch: The player can crouch, so he will have a kneeling animation. As a result, his hitbox's height will be reduced, and this could allow him to avoid projectiles sent by enemies.
 
 ## 3.2. Character Physics
+
+
+-Walk:
+waking speed - turning speed - slowing down- sensibility
+
+-Run
+acceleration - running speed
+
+-Jump
+floatness- speed of going down - diagonally- frames
+
+-Attack:
+range- endlag - frames - combo - 
+
 
 ## 3.3. Level Settings
 The character move through a serie of levels, containing enemies and platforms.
@@ -155,10 +169,10 @@ Down Key: allows your character to crouch.
 
 Space Key: allows your character to jump. If used in midair, he performs a double jump.
 
-Shift Key: used while your characer is moving, allows him to sadh in order to have a higher moving speed.
+Shift Key: used while your characer is moving, allows him to dash in order to have a higher moving speed.
 
-Left Mouse Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
-
+///Left Mouse Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
+///
 ## 5.3. HUD Elements
 To guide the player, there are 3 pieces of data displayed on screen during gameplay:
 
@@ -169,9 +183,6 @@ Either it acts as a warning timecode, telling the player how much he has left to
 It represents the number of enemies the player must kill in order to complete the level. The number decreases by 1 each time an enemy is defeated, and if it hits 0, the player will teleport to the next level.
 
 -Level results: it is located in the middle of the screen. However, it only appears in certain conditions depending on the player actions. Indeed, it displays "WIN" when he manages to finish a panel, or "GAME OVER" if he is defeated or has no time left.
-
-
-
 
 # 6. Optimization
 
@@ -194,6 +205,13 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 | <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
 | <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
 | <span id="Hardcore">Hardcore</span> | Type of game that requires a high user input and time investment in order for users to be successful.  |
+| <span id="HUD">HUD</span> | Type   |
+| <span id="Input">Input</span> | Type   |
+| <span id="Game Over">Game Over</span> | Type   |
+| <span id="Assets">Assets</span> | Type   |
+| <span id="HP">HP</span> | Type   |
+| <span id="Physics">Physics</span> | Type   |
+| <span id="Samuraï">Samuraï</span> | Type   |
 
 
 
