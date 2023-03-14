@@ -205,13 +205,13 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 | <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
 | <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
 | <span id="Hardcore">Hardcore</span> | Type of game that requires a high user input and time investment in order for users to be successful.  |
-| <span id="HUD">HUD</span> | Type   |
-| <span id="Input">Input</span> | Type   |
-| <span id="Game Over">Game Over</span> | Type   |
-| <span id="Assets">Assets</span> | Type   |
-| <span id="HP">HP</span> | Type   |
-| <span id="Physics">Physics</span> | Type   |
-| <span id="Samuraï">Samuraï</span> | Type   |
+| <span id="HUD">HUD</span> | Abbreviation meaning "Head Up Display", it's a set of information displayed on screen and informing the player about his character or his environment (score, remaining lives, etc...)  |
+| <span id="Input">Input</span> | In video games, mean of interaction between the player and the game. Data is transmitted when the player act on the controller (keyboard, joysticks...).    |
+| <span id="Game Over">Game Over</span> | Message displayed on the screen indicating the player's defeat or failure. |
+| <span id="Assets">Assets</span> | Elements of everything we could find within a game (texture packs, character models, animations, sounds, etc...)   |
+| <span id="HP">HP</span> | Meaning "Healing Points", determine the maximum of damage a character can take. |
+| <span id="Physics">Physics</span> | In video games, use of real life laws of physics to make a game more realistic and immersive.   |
+| <span id="Samuraï">Samuraï</span> | In feudal Japan, he's a member of a powerful military castle.   |
 
 
 
