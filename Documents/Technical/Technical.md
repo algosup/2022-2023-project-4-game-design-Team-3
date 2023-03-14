@@ -120,10 +120,22 @@ To go to the next level, the player either has to kill every foes of the level o
 # 5. User Interface
 
 ## 5.1. Menus
-The game opens on a main menu, showing the character artwork and 3 choices:
--Start Game: allows you to load the game before to start playing
+The game opens on a main menu, showing the game's title, the character artwork, and a Samuraï themed music is being played. 
+
+With his mouse, the player has a menu of 3 different choices:
+-Start Game: allows you to load the game before you start playing.
 -Options: lead you to another menu for changing sound, etc...
--Credits: lead you to a credits menu showing the name of those who worked on the project.
+-Quit: you can quit the game and close the application.
+
+On the top right corner, a blue square is indicating you the controls inputs:
+-Arrows: Left, Right and Jump
+-A,Z: Attack
+-Esc (escape): pause.
+
+When you are playing the game but you decide to pause, the game stops, and you have 3 choices appearing in the middle of the screen:
+-Resume: stop the pause and continue to play. 
+-Options: similar to the one from the main menu.
+-Menu: to quit your actual game, and return to the main menu.
 ## 5.2. Controls
 The game is played on PC, so you use the keyboard keys to play the game.
 
