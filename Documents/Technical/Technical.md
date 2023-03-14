@@ -109,7 +109,15 @@ Crouch: The player can crouch, so he will have a kneeling animation. As a result
 ## 3.3. Level Settings
 The character move through a serie of levels, containing enemies and platforms.
 
-To go to the next level, the player either has to kill every foes of the level or reach a certain point. Then, he will be instantly teleported at the next level.
+To finish the level, the player must accomplish a certain goal. If he succeeds, he will be instantly teleported in the next level.
+
+Here are the 3 types of goal he will have fo face:
+
+-Kill every enemies: Most of the levels are full of villains who wants to kill Kazuo. To win this level, the player must kill every enemies of the map.
+
+-Reach a certain point of the map: Sometimes, the player will be alone and will need to reach a particular area (black square) in order to be teleported to the next level. He will eventually need to jump on platforms, but he will have to arrive to the end before time is out.
+
+-Defeat the boss: In this particular level, the player will face an enemy stronger than any common foes. They have several HPs, and the player must find the right strategy to defeat him before he is killed or time's out. If he succeeds, the boss will drops a parchment that the player must pick up to finish the level. It will contain a certain message about the Samuraï's code.
 
 
 # 4. Game Assets
