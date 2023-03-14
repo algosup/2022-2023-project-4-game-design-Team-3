@@ -82,9 +82,39 @@ The latest updated version is 5.1, but our game is using the 4.27.2 version avai
 
 ## 2.2. Development Tools
 
+### 2.2.1 Scene
+
 For this game, we have used the provided 2D Side Scroller template to build our level in Unreal Engine.
 
-### Blueprints
+
+
+### 2.2.2 BluePrints
+Instead of using common scripting languages to program our game, like C++, we have decided to rely on blueprints when using Unreal Engine 4.
+
+This system is extremely flexible and powerful, allowing designers to use virtually the full range of concepts and tools generally only available to programmers. 
+
+Generally, Blueprints are visually scripted additions to our game. They allow us to create and modify complex gameplay elements by connecting Nodes, Events, Functions, and Variables with Wires. Indeed, they are used for various purposes (object construction, individual functions, and general gameplay events) that are specific to each instance of the Blueprint in order to control behavior and other features.
+
+2 types of blueprints are commonly used:
+
+-Level Blueprint: It's a specialized type of Blueprint that act as a level-wide global event graph. Each level in our project has its own Level Blueprint created by default that can be edited within the Unreal Editor, but cannot be created through the editor interface.
+
+Furthemore, it's used to reference and manipulate Actors within the level, control cinematics using Matinee Actors, and manage things like level streaming, checkpoints, and other level-related systems. 
+
+-Blueprints class:It's an asset allowing content creators to easily add functionality on top of existing gameplay classes. Created inside Unreal Editor, it defines a new class of Actor which can then be placed into maps as instances that have a specific behavior.
+
+Most common Parent classes:
+-Actor: object that can be placed or spawned in the world.
+-Pawn: actor that can be "possessed" and receive input from a Controller.
+-Character: pawn that includes the ability to walk, run, jump, and more.
+-PlayerController: actor responsible for controlling a Pawn used by the player.
+-Game Mode: defines the game being played, its rules, scoring, and other faces of the game type.
+
+In fact, Blueprint Classes are great for making interactive assets such as doors, switches, collectible items, and more... And Level Blueprints can also interact with Blueprint classes.
+
+Unreal Editor ???
+
+
 
 ## 2.3. 3rd Party Softwares/libraries
 
