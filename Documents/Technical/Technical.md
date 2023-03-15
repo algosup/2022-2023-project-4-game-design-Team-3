@@ -24,6 +24,8 @@
 - [2. Technologies used](#2-technologies-used)
   - [2.1. Game Engine](##2.1-game-engine)
   - [2.2. Development Tools ](##2.2-development-tools)
+    - [2.2.1. Scene ](##2.2.1-scene)
+    - [2.2.2. BluePrints ](##2.2.2-blueprints)
   - [2.3. 3rd Party Softwares/libraries ](##2.3-3rd-party-softwares/libraries)
 
 - [3. Game Mechanics](#3-game-mechanics)
@@ -84,7 +86,23 @@ The latest updated version is 5.1, but our game is using the 4.27.2 version avai
 
 ### 2.2.1 Scene
 
-For this game, we have used the provided 2D Side Scroller template to build our level in Unreal Engine.
+When we want to create a new project by opening Unreal Engine, the Project Browser propose us several categories depending on our works, like games, movies, architecture, product design and more.
+
+After choosing to create a game template, the browser propose us different templates which serve as basic point depending on the kind of game we want (FPS, Virtual reality, etc...)
+
+For this game, we have used the provided 2D Side Scroller template to build our level in Unreal Engine. It's using a 2D sprite as a character using texture base animation where the camera is positioned at the avatar's side.
+
+In fact, it's the 2D paper version of another template, Side Scroller, more for using 3D characters.
+
+Then, you just have to set the project settings (Blueprints or C++, quality, platform...), set a path location, and name your project before creating it.
+
+
+
+
+
+
+For dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed and its duration.
+
 
 
 
@@ -124,6 +142,8 @@ Unreal Editor ???
 ## 3.1. Core Mechanics
 We play as Kazuo, the game's main protagonist, where we travel through a 2D scrolling level. 
 
+Because it's a 2D Side Scroller, the character has limited directions: forward, backward, and jumping.
+
 Walking: the player move either on the right or on the left in order to progress. If he walk towards a wall, he will still have his walking animation without really moving.
 
 Jumping: the player can jump to reach a higher place, or jump above an enemy to avoid him. He can jump vertically, but he can also jump diagonally if he also move on the left/right during his jump animation.
@@ -148,6 +168,9 @@ floatness- speed of going down - diagonally- frames
 
 -Attack:
 range- endlag - frames - combo - 
+
+-Protect:
+range- lag
 
 
 ## 3.3. Level Settings
