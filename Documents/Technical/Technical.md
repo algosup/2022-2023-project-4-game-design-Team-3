@@ -24,8 +24,9 @@
 - [2. Technologies used](#2-technologies-used)
   - [2.1. Game Engine](##2.1-game-engine)
   - [2.2. Development Tools ](##2.2-development-tools)
-    - [2.2.1. Scene ](##2.2.1-scene)
-    - [2.2.2. BluePrints ](##2.2.2-blueprints)
+    - [2.2.1. Scene ](###2.2.1-scene)
+    - [2.2.2. BluePrints ](###2.2.2-blueprints)
+    - [2.2.3. Tools and Editor ](#1#2.2.3-tools-and-editor)
   - [2.3. 3rd Party Softwares/libraries ](##2.3-3rd-party-softwares/libraries)
 
 - [3. Game Mechanics](#3-game-mechanics)
@@ -130,6 +131,9 @@ Most common Parent classes:
 
 In fact, Blueprint Classes are great for making interactive assets such as doors, switches, collectible items, and more... And Level Blueprints can also interact with Blueprint classes.
 
+
+### 2.2.3 Tools and Editor
+
 Unreal Editor ???
 
 
@@ -155,6 +159,8 @@ Dashing: When the player is moving, he can also dash to move faster. This mechan
 Crouch: The player can crouch, so he will have a kneeling animation. As a result, his hitbox's height will be reduced, and this could allow him to avoid projectiles sent by enemies.
 
 ## 3.2. Character Physics
+
+Character Components
 
 
 -Walk:
@@ -250,21 +256,27 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 
 | word                                                                                                |                                                                                                    definition                                                                                                    |
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |   Real-Time 3D graphics game engine developed by epic Games              |
-| <span id="Game Engine">Game Engine</span>                                                               |        Software framework primarily used for the development of video games.       |
-| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level and object-oriented programming language.                             |
+| <span id="Animation">Animation</span> | In feudal    |
+| <span id="Assets">Assets</span> | Elements of everything we could find within a game (texture packs, character models, animations, sounds, etc...)   |
 | <span id="Blueprint">Blueprint</span>                  |                                                              Complete gameplay scripting system based on the concept of using a node-based interface for creating gameplay elements from within Unreal Editor.                                                               |
-| <span id="Level Design">Level Design</span>         |            Game design process involving the creation of video games levels.             |
-| <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
-| <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
+| <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level and object-oriented programming language.                             |
+| <span id="Editor">Editor</span> | In feudal    || <span id="Editor">Editor</span> | In feudal    |
+| <span id="Game Engine">Game Engine</span>                                                               |        Software framework primarily used for the development of video games.       |
+| <span id="Game Over">Game Over</span> | Message displayed on the screen indicating the player's defeat or failure. |
 | <span id="Hardcore">Hardcore</span> | Type of game that requires a high user input and time investment in order for users to be successful.  |
+| <span id="HP">HP</span> | Meaning "Healing Points", determine the maximum of damage a character can take. |
 | <span id="HUD">HUD</span> | Abbreviation meaning "Head Up Display", it's a set of information displayed on screen and informing the player about his character or his environment (score, remaining lives, etc...)  |
 | <span id="Input">Input</span> | In video games, mean of interaction between the player and the game. Data is transmitted when the player act on the controller (keyboard, joysticks...).    |
-| <span id="Game Over">Game Over</span> | Message displayed on the screen indicating the player's defeat or failure. |
-| <span id="Assets">Assets</span> | Elements of everything we could find within a game (texture packs, character models, animations, sounds, etc...)   |
-| <span id="HP">HP</span> | Meaning "Healing Points", determine the maximum of damage a character can take. |
+| <span id="Lag">Lag</span> | In feudal    |
+| <span id="Level Design">Level Design</span>         |            Game design process involving the creation of video games levels.             |
+| <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
 | <span id="Physics">Physics</span> | In video games, use of real life laws of physics to make a game more realistic and immersive.   |
 | <span id="Samuraï">Samuraï</span> | In feudal Japan, he's a member of a powerful military castle.   |
+| <span id="Side Scroller">Side Scroller</span> | In feudal    |
+| <span id="Sprite">Sprite</span> | In feudal    |
+| <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
+| <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |   Real-Time 3D graphics game engine developed by epic Games              |
+
 
 
 
