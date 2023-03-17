@@ -134,7 +134,9 @@ In fact, Blueprint Classes are great for making interactive assets such as doors
 
 ### 2.2.3 Tools and Editor
 
-Unreal Editor ???
+Unreal Editor 
+
+(TO BE UPDATED)
 
 
 
@@ -159,7 +161,7 @@ Dashing: When the player is moving, he can also dash to move faster. This mechan
 Crouch: The player can crouch, so he will have a kneeling animation. As a result, his hitbox's height will be reduced, and this could allow him to avoid projectiles sent by enemies.
 
 ## 3.2. Character Physics
-
+(TO BE UPDATED)
 Character Components
 
 
@@ -180,6 +182,7 @@ range- lag
 
 
 ## 3.3. Level Settings
+(TO BE UPDATED)
 The character move through a serie of levels, containing enemies and platforms.
 
 To finish the level, the player must accomplish a certain goal. If he succeeds, he will be instantly teleported in the next level.
@@ -194,6 +197,7 @@ Here are the 3 types of goal he will have fo face:
 
 
 # 4. Game Assets
+(TO BE UPDATED)
 
 -FREE SAMURAI PIXEL ART SPRITE SHEETS (https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)
 
@@ -218,6 +222,7 @@ When you are playing the game but you decide to pause, the game stops, and you h
 -Options: similar to the one from the main menu.
 -Menu: to quit your actual game, and return to the main menu.
 ## 5.2. Controls
+(TO BE UPDATED)
 The game is played on PC, so you use the keyboard keys to play the game.
 
 Right Key: allows your character to move on the right.
@@ -246,14 +251,16 @@ It represents the number of enemies the player must kill in order to complete th
 # 6. Optimization
 
 ## 6.1. Performance
+(TO BE UPDATED)
 
 ## 6.2. Memory Usage
+(TO BE UPDATED)
 Dealing with the memory used for creating our game will be important. Indeed, we want to avoid having issues when pushing the game's codes and files in github. So, the game's performance must remain almost untouched when transferring data in the main branch of our project.
 
 
 
 # 7. Glossary
-
+(TO BE UPDATED)
 | word                                                                                                |                                                                                                    definition                                                                                                    |
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <span id="Animation">Animation</span> | In feudal    |
