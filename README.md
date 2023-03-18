@@ -27,15 +27,18 @@ The controls for Samurai Revenge are as follows:
 
 ## Functional Specification
 
-In Ronin's Revenge, the main character can run, jump, and attacks. Enemies have unique attacks, movement patterns, and weaknesses. The game has three levels, each with a boss battle at the end.
+In Ronin's Revenge, the main character can run, jump, and attacks. Enemies have unique attacks, movement patterns, and weaknesses. The game has three levels, each with a boss battle at the end.<br>
+[https://github.com/algosup/2022-2023-project-4-game-design-Team-3/blob/main/Documents/Functional/Functional.md]
 
 ## Technical Specification
 
-Samurai Revenge is built on Unreal Engine 4 using Blueprint. 
+Samurai Revenge is built on Unreal Engine 4 using Blueprint.<br>
+[https://github.com/algosup/2022-2023-project-4-game-design-Team-3/blob/main/Documents/Technical/Technical.md]
 
 ## Test Plan
 
-During testing, we encountered some minor bugs and issues, such as collision detection problems . We resolved these issues by tweaking the game's code.
+During testing, we encountered some minor bugs and issues, such as collision detection problems . We resolved these issues by tweaking the game's code.<br>
+[https://github.com/algosup/2022-2023-project-4-game-design-Team-3/blob/main/Documents/QA/Test_Plan.md]
 
 ## Demo
 
