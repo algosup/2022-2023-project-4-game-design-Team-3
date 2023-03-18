@@ -40,11 +40,11 @@ Samurai Revenge is built on Unreal Engine 4 using Blueprint.<br>
 During testing, we encountered some minor bugs and issues, such as collision detection problems . We resolved these issues by tweaking the game's code.<br>
 [https://github.com/algosup/2022-2023-project-4-game-design-Team-3/blob/main/Documents/QA/Test_Plan.md]
 
-## Demo
+## Prototype
 
-To access the demo version of Samurai Revenge, please visit <br>
+To access the prototype version of Samurai Revenge, please visit <br>
 [https://drive.google.com/file/d/1H6RFdWic3lg46kGG6Io4-KcOFOO_GoSp/view?usp=share_link] for the Mac Download.<br>
-Note that the demo version only includes a few enemies and the beginning of levels.
+Note that the prototype version only includes a few enemies and the beginning of levels.
 
 ## Credits
 
