@@ -39,7 +39,9 @@ During testing, we encountered some minor bugs and issues, such as collision det
 
 ## Demo
 
-To access the demo version of Samurai Revenge, please visit [INSERT LINK HERE]. Note that the demo version only includes a few enemies and the beginning of levels.
+To access the demo version of Samurai Revenge, please visit <br>
+[https://drive.google.com/file/d/1H6RFdWic3lg46kGG6Io4-KcOFOO_GoSp/view?usp=share_link] for the Mac Download.<br>
+Note that the demo version only includes a few enemies and the beginning of levels.
 
 ## Credits
 
