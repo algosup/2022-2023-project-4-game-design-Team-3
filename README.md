@@ -2,8 +2,7 @@
 
 # Ronin's Revenge
 
-![Samurai Revenge Logo](samurai_revenge.png){:height="400px" width="400px"}
-
+<img src="Ronins_Revenge.png" alt= “” width="400px" height="400px">
 
 ## Overview
 
