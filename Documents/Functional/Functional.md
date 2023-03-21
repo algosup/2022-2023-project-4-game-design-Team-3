@@ -60,9 +60,9 @@ The game will be developed for Windows and MacOS. The game will be developed usi
 5. Time Limit: The biggest challenge in this game is the 10 minute time limit. This forces players to complete each level as quickly and efficiently as possible. The time limit is always displayed on screen, adding a sense of urgency and excitement to the game. And if you don't succeed had to start over again.
 
 ## Controls
-1. Movement: Players can use the arrow keys or joystick to control the movement of the samurai. Samurai can move left and right, crouch, and jump.
-2. Attack: Player can use the 'Left Click' button to attack. The samurai can perform a basic attack by tapping on the 'Left Click' button. The samurai can also perform a combo attack by cliking the 'Left Click' button many times.
-4. Dash: Players can perform a dash move by tapping on the 'Shift' button Dash allows the player to quickly dodge incoming attacks and move faster around the screen.
+1. Movement: Players can use the arrow keys or joystick to control the movement of the samurai. Samurai can move left and right and jump.
+2. Attack: Player can use the 'A' button to attack.. The samurai can also perform a combo attack by cliking the 'A' button many times.
+3. Dash: Players can perform a dash move by tapping on the 'Shift' button Dash allows the player to quickly dodge incoming attacks and move faster around the screen.
 
 # User Interface
 ##  Main Menu
@@ -100,8 +100,11 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 | Level   | Picture | Description |
 |---------|---------|-------------|
 | Level 1 |         |             |
+| Boss Arena 1 |         |             |
 | Level 2 |         |             |
+| Boss Arena 2 |         |             |
 | Level 3 |         |             |
+| Boss Arena 3 |         |             |
 # Future Features
 
 For the future of this game we can add some new features:
