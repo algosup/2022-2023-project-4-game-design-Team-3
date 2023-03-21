@@ -44,6 +44,7 @@ During testing, we encountered some minor bugs and issues, such as collision det
 
 To access the prototype version of Samurai Revenge, please visit <br>
 [https://drive.google.com/file/d/1H6RFdWic3lg46kGG6Io4-KcOFOO_GoSp/view?usp=share_link] for the Mac Download.<br>
+[https://drive.google.com/file/d/1jGkgCfPtAjzNdMU9x8onXUBJKiaVkJQ-/view?usp=share_link] for the Windows Download.<br>
 Note that the prototype version only includes a few enemies and the beginning of levels.
 
 ## Credits
