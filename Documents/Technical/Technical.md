@@ -263,24 +263,24 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 (TO BE UPDATED)
 | word                                                                                                |                                                                                                    definition                                                                                                    |
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <span id="Animation">Animation</span> | In feudal    |
+| <span id="Animation">Animation</span> | Process of creating an illusion of motion using a sequence of static images that slightly differ from each other.     |
 | <span id="Assets">Assets</span> | Elements of everything we could find within a game (texture packs, character models, animations, sounds, etc...)   |
 | <span id="Blueprint">Blueprint</span>                  |                                                              Complete gameplay scripting system based on the concept of using a node-based interface for creating gameplay elements from within Unreal Editor.                                                               |
 | <img src="./Images/ISO_C++_Logo.svg.png" width="30" height="30" /><span id="C++">C++</span>               |                          C++ is a high-level and object-oriented programming language.                             |
-| <span id="Editor">Editor</span> | In feudal    || <span id="Editor">Editor</span> | In feudal    |
+| <span id="Editor">Editor</span> | Software responsible for the definition and creation of all interactive architecture for a segment or level of a video game.   |
 | <span id="Game Engine">Game Engine</span>                                                               |        Software framework primarily used for the development of video games.       |
 | <span id="Game Over">Game Over</span> | Message displayed on the screen indicating the player's defeat or failure. |
 | <span id="Hardcore">Hardcore</span> | Type of game that requires a high user input and time investment in order for users to be successful.  |
 | <span id="HP">HP</span> | Meaning "Healing Points", determine the maximum of damage a character can take. |
 | <span id="HUD">HUD</span> | Abbreviation meaning "Head Up Display", it's a set of information displayed on screen and informing the player about his character or his environment (score, remaining lives, etc...)  |
 | <span id="Input">Input</span> | In video games, mean of interaction between the player and the game. Data is transmitted when the player act on the controller (keyboard, joysticks...).    |
-| <span id="Lag">Lag</span> | In feudal    |
+| <span id="Lag">Lag</span> | Time delay between a player's input and the game's reaction.   |
 | <span id="Level Design">Level Design</span>         |            Game design process involving the creation of video games levels.             |
 | <span id="Mechanics">Mechanics</span> | In Game Design, rules and procedures guiding players through the game.  |
 | <span id="Physics">Physics</span> | In video games, use of real life laws of physics to make a game more realistic and immersive.   |
 | <span id="Samuraï">Samuraï</span> | In feudal Japan, he's a member of a powerful military castle.   |
-| <span id="Side Scroller">Side Scroller</span> | In feudal    |
-| <span id="Sprite">Sprite</span> | In feudal    |
+| <span id="Side Scroller">Side Scroller</span> | Type of game viewed from a side-view camera angle where the screen follows the player.    |
+| <span id="Sprite">Sprite</span> | Image (mostly pixelated) representing game assets like player characters, enemies, projectiles...   |
 | <span id="Systems">Systems</span> | In Game Design, rules defining how the game react to player inputs.  |
 | <img src="./Images/1200px-UE_Logo_Black_Centered.svg.png" width="30" height="30" /> <span id="Unreal Engine">Unreal Engine</span>                                                                     |   Real-Time 3D graphics game engine developed by epic Games              |
 
