@@ -47,6 +47,11 @@ To access the prototype version of Samurai Revenge, please visit <br>
 [https://drive.google.com/file/d/1jGkgCfPtAjzNdMU9x8onXUBJKiaVkJQ-/view?usp=share_link] for the Windows Download.<br>
 Note that the prototype version only includes a few enemies and the beginning of levels.
 
+## Demo
+
+To access the prototype version of Samurai Revenge, please visit <br>
+[https://drive.google.com/file/d/1DZvntY6kxc__XEzRr5HqHAES3Qlo4f1m/view?usp=share_link] for the Windows Download.<br>
+
 ## Credits
 
 - Lucas AUBARD: Program Manager
