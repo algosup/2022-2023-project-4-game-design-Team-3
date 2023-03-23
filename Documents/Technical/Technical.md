@@ -199,6 +199,10 @@ Here are the 3 types of goal he will have fo face:
 # 4. Game Assets
 (TO BE UPDATED)
 
+| Name  | Link   | Type of assets   | Picture   |
+| ----------------- | :-------------------: |:-------------------: |:-------------------: |
+| A  | B   | C   | D   |
+
 -FREE SAMURAI PIXEL ART SPRITE SHEETS (https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)
 
 
