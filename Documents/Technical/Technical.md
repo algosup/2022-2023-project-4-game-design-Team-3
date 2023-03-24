@@ -161,18 +161,37 @@ We play as Kazuo, the game's main protagonist, where we travel through a 2D scro
 
 Because it's a 2D Side Scroller, the character has limited directions: forward, backward, and jumping.
 
-Walking: the player move either on the right or on the left in order to progress. If he walk towards a wall, he will still have his walking animation without really moving.
+To program his different actions, we have to edit the 2DSideScrollerCharacter asset (the player's sprite) to set their behavior.
 
-Jumping: the player can jump to reach a higher place, or jump above an enemy to avoid him. He can jump vertically, but he can also jump diagonally if he also move on the left/right during his jump animation.
+Walking: 
+- The player move either on the right or on the left in order to progress.
+- We are using the Input Axis event named "MoveRight" to make the character move with the vectors coordinates X=1, Y=0 and Z=0. This event provides the current value of the MoveRight axis once per frame when the input is enabled for the containing vector. If the value is negative, the character will move to the left.
+- If he walk towards a wall, he will still have his walking animation without really moving.
 
-Attacking: the player takes his katana and swings it a front of him, extending his attack hitbox in order to touch his enemies. He has the possibility to attack several times to trigger different sword animations (and perhaps different hitboxes) and create combos.
+Jumping: 
+- The player can jump to reach a higher place, or jump above an enemy to avoid him. 
+- The input action jump is used when the keys used for the jump are pressed or released. At this moment, a pending launch velocity of Z=800 will be set for the character. The velocity will be processed until the character reaches his falling state.
+Indeed, a counter has been set for a limit of 2 jump. If the counter reaches its max, the character's velocity won't be launched anymore as long as he doesn't land back on the surface.
+- He can jump vertically, but he can also jump diagonally if he also move on the left/right during his jump animation.
 
-Dashing: When the player is moving, he can also dash to move faster. This mechanic is useful when the player want to progress at a faster rhythm, and in situations when the path is clear. He can also jump while dashing before landing on the ground and continuing to run.
+Attacking: 
+- The player takes his katana and swings it a front of him, extending his attack hitbox in order to touch his enemies. 
+- The input action Attack is used when the keys used for the jump are pressed or released. At this moment, a box collision for creating the hitbox attack is created.
+It also possesses a counter indicating how much time the attack input has been pressed in a 0.3s delay. Depending on the counter number, a different attack animation will be displayed.
+- He has the possibility to attack several times to trigger different sword animations (and perhaps different hitboxes) and create combos.
 
-Crouch: The player can crouch, so he will have a kneeling animation. As a result, his hitbox's height will be reduced, and this could allow him to avoid projectiles sent by enemies.
+Dashing:
+- While the player is moving, he can also dash to move faster. This mechanic is useful when the player want to progress at a faster rhythm, and in situations when the path is clear. 
+- When we press the required button (Left Shift), a pending launch velocity of Z=100 (multiplicated by 800)is set for the player.
+- He can also dash while jumping to make huge leaps.
+
+
 
 ## 3.2. Character Physics
 (TO BE UPDATED)
+In our game, we want to simulate our character's physics to make him feel like a strong samuraï.
+
+For that
 Character Components
 
 Paper2D.PaperCharacter parent class
@@ -190,7 +209,7 @@ acceleration - running speed
 floatness- speed of going down - diagonally- frames
 
 -Attack:
-range- endlag - frames - combo - 
+range- endlag - frames - combo - hitbox
 
 -Protect:
 range- lag
