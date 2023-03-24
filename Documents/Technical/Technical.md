@@ -33,6 +33,8 @@
   - [3.1. Core Mechanics](##3.1-core-mechanics)
   - [3.2. Character Physics](##3.2-character-physics)
   - [3.3. Level Settings ](##3.3-level-settings)
+    - [3.3.1. Setting up a level ](###3.3.1-setting-up-a-level)
+    - [3.3.2 Level Organization ](###3.3.2-level-organization)
 
 - [4. Game Assets](#4-game-assets)
 
@@ -95,16 +97,6 @@ In fact, it's the 2D paper version of another template, Side Scroller, more for 
 
 Then, you just have to set the project settings (Blueprints or C++, quality, platform...), set a path location, and name your project before creating it.
 
-
-
-
-
-
-For dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed and its duration.
-
-
-
-
 ### 2.2.2 BluePrints
 Instead of using common scripting languages to program our game, like C++, we have decided to rely on blueprints when using Unreal Engine 4.
 
@@ -132,15 +124,32 @@ In fact, Blueprint Classes are great for making interactive assets such as doors
 
 ### 2.2.3 Tools and Editor
 
-Unreal Editor 
+When discovering Unreal Engine while ccreating a scene, there are several tools and editors to takine into account.
 
-(TO BE UPDATED)
+By default, Unreal Engine 4 will open to this interface named the Level Editor:
 
-C
 
-Toolbar
+It's the primary editor where we construct our gameplay levels.  Indeed, it provide us the core level creation functionality for Unreal Editor. Its purpose it to help is create, view, and modify levels, by mainly placing, transforming, and editing the properties of Actors.
 
-Viewport   Construction Script    Event Graph
+Furthermore, it shows a level within a 3D environment (even in 2D) in which we place a series of objects and geometry to define the game world we want to conceive, shown in the world Outliner. There are also details about each objects, such has the Transform properties having numeric entry fields for the X, Y and Z axes. Indeed, we can modify their location, their rotation, and their scale.
+
+It's also possible to change the perspective view of the scene.
+
+Above the scene, a panel is displaying a group of commands, providing quick access to commonly used tools and operations.
+
+
+Another important editor is the Blueprint editor: it's where we work and modify blueprints. It has different features:
+
+- Viewport: it's the window where we can examine the object. Just like the level editor for scenes, we can change the perspective and see, as an example, how our character would look like.   
+- Event Graph: it contains a node graph that uses events and function for calling  to perform actions in response to gameplay events related the Blueprint. Indeed, this is where we focus on the programming of our character's behavior depending on the player's input.
+
+And for our 2D Side Scrolling game, we also used these editors very often:
+
+- 
+
+- 
+
+For dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed and its duration.
 
 
 
@@ -217,7 +226,7 @@ The third attack last /// frames and has a endlag of /// frames.
 ### 3.3.1 Setting up a level
 The game contains 6 levels in total: 3 regular levels, and 3 boss levels.
 
-A level is one of the basic assets, defined as a collection of actors (light, volumes, mesh instances...). In Unreal Engine, multiple levels can be loaded and unloaded into the World for creating a streaming experience.
+A level is one of the basic assets, defined as a collection of actors (light, volumes, mesh instances...). It's referring to the scene we create for our game experience. In Unreal Engine, multiple levels can be loaded and unloaded into the World for creating a streaming experience.
 
 When creating one, we are able to build a new world by integrating as many assets as we want, such as character sprites, tiles, decorations, and other optsions like the light direction.
 
@@ -225,7 +234,7 @@ By selecting the tool "Blueprints'" in the main Toolbar, we can access to the Op
 
 A blueprint class is also used to allow the loading of the game and indicate the next level which will load once the first level is done. For now, we don't have to save our game due to our decision to make the player start over to the beginning if he dies.
 
-### 3.3.2 Level organization.
+### 3.3.2 Level Organization.
 
 For the regular levels, the player has to move through a wide space, containing enemies and platforms.
 
