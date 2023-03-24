@@ -26,7 +26,10 @@
   - [2.2. Development Tools ](##2.2-development-tools)
     - [2.2.1. Scene ](###2.2.1-scene)
     - [2.2.2. BluePrints ](###2.2.2-blueprints)
-    - [2.2.3. Tools and Editor ](#1#2.2.3-tools-and-editor)
+    - [2.2.3. Tools and Editor ](###2.2.3-tools-and-editor)
+      - [2.2.3.1 Level Editor ](#####2.2.3.1-level-editor)
+      - [2.2.3.2 Blueprint Editor ](#####2.2.3.2-blueprint-editor)
+      - [2.2.3.3 Other Editors ](#####2.2.3.3-other-editors)
   - [2.3. 3rd Party Softwares/libraries ](##2.3-3rd-party-softwares/libraries)
 
 - [3. Game Mechanics](#3-game-mechanics)
@@ -126,6 +129,8 @@ In fact, Blueprint Classes are great for making interactive assets such as doors
 
 When discovering Unreal Engine while ccreating a scene, there are several tools and editors to takine into account.
 
+#### 2.2.3.1 Level Editor
+
 By default, Unreal Engine 4 will open to this interface named the Level Editor:
 
 
@@ -137,20 +142,25 @@ It's also possible to change the perspective view of the scene.
 
 Above the scene, a panel is displaying a group of commands, providing quick access to commonly used tools and operations.
 
+#### 2.2.3.2 Blueprint Editor
 
 Another important editor is the Blueprint editor: it's where we work and modify blueprints. It has different features:
 
 - Viewport: it's the window where we can examine the object. Just like the level editor for scenes, we can change the perspective and see, as an example, how our character would look like.   
 - Event Graph: it contains a node graph that uses events and function for calling  to perform actions in response to gameplay events related the Blueprint. Indeed, this is where we focus on the programming of our character's behavior depending on the player's input.
 
+#### 2.2.3.3 Other Editors
+
 And for our 2D Side Scrolling game, we also used these editors very often:
 
-- 
+- Paper 2D Sprite Editor: it's a tool to set up and edit individual sprite assets. We can decide its dimension, its collision settings, and also the sprite its based from.
 
-- 
 
-For dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed and its duration.
 
+- Flipbook editor: for dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed.
+
+
+The flipbook editor allow us to create and/or preview 2D animations by using our sprite assets. Then, we tune or tweak the duration in which a sprite is displayed, but we can determine the overall playback speed of the Flipbook animation through the Frames Per Second option.
 
 
 ## 2.3. 3rd Party Softwares/libraries
