@@ -31,7 +31,6 @@
 
 - [3. Game Mechanics](#3-game-mechanics)
   - [3.1. Core Mechanics](##3.1-core-mechanics)
-  // Needs details
   - [3.2. Character Physics](##3.2-character-physics)
   - [3.3. Level Settings ](##3.3-level-settings)
 
@@ -40,7 +39,6 @@
 - [5. User Interface](#5-user-interface)
   - [5.1. Menus](##5.1-menus)
   - [5.2. Controls](##5.2-controls)
-  // Needs details
   - [5.3. HUD Elements](##5.3-hud-elements)
 
 - [6. Optimization](#6-optimization)
@@ -149,11 +147,13 @@ Viewport   Construction Script    Event Graph
 ## 2.3. 3rd Party Softwares/libraries
 We are using several other softwares to help us with the project management:
 
-- Google sheets:
+- Google sheets: it's a spreadsheet program included in the web-based Google Docs Editor suite. It allow us to create and edit spreadsheets, allowing us to share data in Team such as KPIs or the test cases.
 
-- Github:
+- Github: a famous code hosting platform for version control and collaboration. We use it to push progress on our game's scene and its related documentation.
 
-- Visual Studio code:
+- Visual Studio Code: a code editor used to write programs, but also to build and debugg modern web and cloud applications. However, we mostly use it to write our documentation in markdown format.
+
+- ChatGPT: a chatbot prototype using Artificial Intelligence developped by OpenAI. We sometimes use it to ask diverse questions.
 
 # 3. Game Mechanics
 
@@ -279,6 +279,7 @@ When you are playing the game but you decide to pause, the game stops, and you h
 -Resume: stop the pause and continue to play. 
 -Options: similar to the one from the main menu.
 -Menu: to quit your actual game, and return to the main menu.
+
 ## 5.2. Controls
 The game is played on PC, so you use the keyboard keys to play the game.
 
