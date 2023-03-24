@@ -201,16 +201,16 @@ Here are the list of game assets we used for the making of our game:
 
 | Name  | Link   | Type of assets   | Picture   |
 | ----------------- | :-------------------: |:-------------------: |:-------------------: |
-| FREE SAMURAI PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)   | 2D Characters spritesheet   | <img src="./Images/Asset1.png" width="60" height="60" />   |
-| FREE NINJA SPRITE SHEETS PIXEL ART  | [Link](https://craftpix.net/freebies/free-ninja-sprite-sheets-pixel-art/)   | 2D Characters spritesheet   | D   |
-| FREE GHOST PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-ghost-pixel-art-sprite-sheets/?num=3&count=649&sq=sprites%20pixel&pos=0)   | 2D Characters spritesheet   | D   |
-| FREE GREEN ZONE TILESET PIXEL ART  | [Link](https://craftpix.net/freebies/free-green-zone-tileset-pixel-art/)   | Tileset and objects for 2D platformer   | D   |
-| FREE SWAMP GAME TILESET PIXEL ART  | [Link](https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/)   | Tileset and objects for 2D platformer   | D   |
-| FREE MARKET CARTOON 2D GAME TILESET  | [Link](https://craftpix.net/freebies/free-market-cartoon-2d-game-tileset/)   | Tileset and objects for 2D platformer   | D   |
-| FREE BUSH ASSETS PIXEL ART PACK  | [Link](https://craftpix.net/freebies/free-bush-assets-pixel-art-pack/)   | Objects for 2D platformer   | D   |
-| FREE ROCKS PIXEL ART ASSET PACK  | [Link](https://craftpix.net/freebies/free-rocks-pixel-art-asset-pack/?num=1&count=12&sq=rock&pos=2)   | Objects for 2D platformer   | D   |
-| Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | D   |
-| Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | Backgrounds for 2D platformer   | 2D Flame spritesheet   |
+| FREE SAMURAI PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)   | 2D Characters spritesheet   | <img src="./Images/Asset1.png" width="100" height="100" />   |
+| FREE NINJA SPRITE SHEETS PIXEL ART  | [Link](https://craftpix.net/freebies/free-ninja-sprite-sheets-pixel-art/)   | 2D Characters spritesheet   | <img src="./Images/Asset2.png" width="100" height="100" />   |
+| FREE GHOST PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-ghost-pixel-art-sprite-sheets/?num=3&count=649&sq=sprites%20pixel&pos=0)   | 2D Characters spritesheet   | <img src="./Images/Asset3.png" width="100" height="100" />   |
+| FREE GREEN ZONE TILESET PIXEL ART  | [Link](https://craftpix.net/freebies/free-green-zone-tileset-pixel-art/)   | Tileset and objects for 2D platformer   | <img src="./Images/Asset4.png" width="100" height="100" />   |
+| FREE SWAMP GAME TILESET PIXEL ART  | [Link](https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/)   | Tileset and objects for 2D platformer   | <img src="./Images/Asset5.png" width="100" height="100" />   |
+| FREE MARKET CARTOON 2D GAME TILESET  | [Link](https://craftpix.net/freebies/free-market-cartoon-2d-game-tileset/)   | Tileset and objects for 2D platformer   | <img src="./Images/Asset6.png" width="100" height="100" />   |
+| FREE BUSH ASSETS PIXEL ART PACK  | [Link](https://craftpix.net/freebies/free-bush-assets-pixel-art-pack/)   | Objects for 2D platformer   | <img src="./Images/Asset7.png" width="100" height="100" />  |
+| FREE ROCKS PIXEL ART ASSET PACK  | [Link](https://craftpix.net/freebies/free-rocks-pixel-art-asset-pack/?num=1&count=12&sq=rock&pos=2)   | Objects for 2D platformer   |<img src="./Images/Asset8.png" width="100" height="100" />   |
+| Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | <img src="./Images/Asset9.png" width="100" height="100" />   |
+| Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | Backgrounds for 2D platformer   | 2D Flame spritesheet   |<img src="./Images/Asset10.png" width="100" height="100" />   |
 
 
 
