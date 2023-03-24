@@ -201,7 +201,7 @@ Here are the list of game assets we used for the making of our game:
 
 | Name  | Link   | Type of assets   | Picture   |
 | ----------------- | :-------------------: |:-------------------: |:-------------------: |
-| FREE SAMURAI PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)   | 2D Characters spritesheet   | D   |
+| FREE SAMURAI PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/)   | 2D Characters spritesheet   | <img src="./Images/Asset1.png" width="60" height="60" />   |
 | FREE NINJA SPRITE SHEETS PIXEL ART  | [Link](https://craftpix.net/freebies/free-ninja-sprite-sheets-pixel-art/)   | 2D Characters spritesheet   | D   |
 | FREE GHOST PIXEL ART SPRITE SHEETS  | [Link](https://craftpix.net/freebies/free-ghost-pixel-art-sprite-sheets/?num=3&count=649&sq=sprites%20pixel&pos=0)   | 2D Characters spritesheet   | D   |
 | FREE GREEN ZONE TILESET PIXEL ART  | [Link](https://craftpix.net/freebies/free-green-zone-tileset-pixel-art/)   | Tileset and objects for 2D platformer   | D   |
