@@ -210,7 +210,7 @@ Here are the list of game assets we used for the making of our game:
 | FREE BUSH ASSETS PIXEL ART PACK  | [Link](https://craftpix.net/freebies/free-bush-assets-pixel-art-pack/)   | Objects for 2D platformer   | <img src="./Images/Asset7.png" width="100" height="100" />  |
 | FREE ROCKS PIXEL ART ASSET PACK  | [Link](https://craftpix.net/freebies/free-rocks-pixel-art-asset-pack/?num=1&count=12&sq=rock&pos=2)   | Objects for 2D platformer   |<img src="./Images/Asset8.png" width="100" height="100" />   |
 | Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | <img src="./Images/Asset9.png" width="100" height="100" />   |
-| Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | Backgrounds for 2D platformer   | 2D Flame spritesheet   |<img src="./Images/Asset10.png" width="100" height="100" />   |
+| Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | 2D Flame spritesheet   |<img src="./Images/Asset10.png" width="100" height="100" />   |
 
 
 
