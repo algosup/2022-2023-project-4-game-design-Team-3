@@ -182,7 +182,7 @@ It also possesses a counter indicating how much time the attack input has been p
 
 Dashing:
 - While the player is moving, he can also dash to move faster. This mechanic is useful when the player want to progress at a faster rhythm, and in situations when the path is clear. 
-- When we press the required button (Left Shift), a pending launch velocity of Z=100 (multiplicated by 800)is set for the player.
+- When we press the required button (Left Shift), a pending launch velocity of Z=100 (multiplicated by 800) is set for the player.
 - He can also dash while jumping to make huge leaps.
 
 
@@ -191,30 +191,25 @@ Dashing:
 (TO BE UPDATED)
 In our game, we want to simulate our character's physics to make him feel like a strong samuraï.
 
-For that
-Character Components
+For creating a "skeleton" for our character, we first need to create a blueprint with the class PaperCharacter, useful for 2D games.
 
-Paper2D.PaperCharacter parent class
+When viewing the character in the viewports, we can have a preview on how the character will look in a 3D grid, behave if he is animated, and what would be his characteristics in the environment he is set in.
 
-Paper character
+There is a capsule around the character called the Capsule component which contains several other components:
+- The character sprite, which uses a pixellized picture representing Kazuo, and can itself contain a box for simulating the attack's hitbox.
+- The CameraBoom (spring arm component), which creates a "camera" placed within a distance for the player. Used to "film" the sprite, it has a springarm in order to "pull" the camera if it collides with an obstacle.
+-The capsule collision, which is used to simulate collision with other objects like obstacles or enemies. Its half height is 96 and his radius is 40.
 
+Another component show the character's movement: it allows to hand the players different movement's physics.
 
--Walk:
-waking speed - turning speed - slowing down- sensibility
+-Walk: the character as a max ground speed of 600.0. He can step at a maximum height of 45 without jumpinh, and a ground friction of 3.0 to affect movement control when braking. Kazuo can also walk off ledges and maintain horizontal ground velocity.
 
--Run
-acceleration - running speed
-
--Jump
-floatness- speed of going down - diagonally- frames
+-Jump: Kazuo has a jump velocity of 100, with a air control of 0.8 to allow the character's movement in the airs.
 
 -Attack:
 range- endlag - frames - combo - hitbox
 
--Protect:
-range- lag
 
-collision
 
 
 ## 3.3. Level Settings
