@@ -147,12 +147,13 @@ Viewport   Construction Script    Event Graph
 
 
 ## 2.3. 3rd Party Softwares/libraries
+We are using several other softwares to help us with the project management:
 
-Google sheets
+- Google sheets:
 
-Github
+- Github:
 
-Visual Studio code
+- Visual Studio code:
 
 # 3. Game Mechanics
 
@@ -188,7 +189,6 @@ Dashing:
 
 
 ## 3.2. Character Physics
-(TO BE UPDATED)
 In our game, we want to simulate our character's physics to make him feel like a strong samuraï.
 
 For creating a "skeleton" for our character, we first need to create a blueprint with the class PaperCharacter, useful for 2D games.
@@ -198,7 +198,7 @@ When viewing the character in the viewports, we can have a preview on how the ch
 There is a capsule around the character called the Capsule component which contains several other components:
 - The character sprite, which uses a pixellized picture representing Kazuo, and can itself contain a box for simulating the attack's hitbox.
 - The CameraBoom (spring arm component), which creates a "camera" placed within a distance for the player. Used to "film" the sprite, it has a springarm in order to "pull" the camera if it collides with an obstacle.
--The capsule collision, which is used to simulate collision with other objects like obstacles or enemies. Its half height is 96 and his radius is 40.
+- The capsule collision, which is used to simulate collision with other objects like obstacles or enemies. Its half height is 96 and his radius is 40.
 
 Another component show the character's movement: it allows to hand the players different movement's physics.
 
@@ -206,11 +206,11 @@ Another component show the character's movement: it allows to hand the players d
 
 -Jump: Kazuo has a jump velocity of 100, with a air control of 0.8 to allow the character's movement in the airs.
 
--Attack:
-range- endlag - frames - combo - hitbox
+-Attack: Kazuo's sprite has a box collider which is its attack hitbox. It has a length of /// and a width of ///, and is activated when the player press the Attack input.
 
-
-
+The first attack last /// frames and has a endlag of /// frames.
+The second attack last /// frames and has a endlag of /// frames.
+The third attack last /// frames and has a endlag of /// frames.
 
 ## 3.3. Level Settings
 
@@ -280,21 +280,25 @@ When you are playing the game but you decide to pause, the game stops, and you h
 -Options: similar to the one from the main menu.
 -Menu: to quit your actual game, and return to the main menu.
 ## 5.2. Controls
-(TO BE UPDATED)
 The game is played on PC, so you use the keyboard keys to play the game.
 
-Right Key: allows your character to move on the right.
+Here are the default controls for playing the game:
 
-Left Key: allows your character to move on the left.
+- Right Key: allows your character to move on the right.
 
-Down Key: allows your character to crouch.
+- Left Key: allows your character to move on the left.
 
-Space Key: allows your character to jump. If used in midair, he performs a double jump.
+- Down Key: allows your character to crouch.
 
-Shift Key: used while your characer is moving, allows him to dash in order to have a higher moving speed.
+- Space Key: allows your character to jump. If used in midair, he performs a double jump.
 
-///Left Mouse Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
-///
+- Shift Key: used while your characer is moving, allows him to dash in order to have a higher moving speed.
+
+- A Key: allows the player to swing his katana to attack a front of him. Clicked several times, he can create a combo attack.
+
+It is also possible to customize the controls depending on the players' taste.
+
+At the beginning of the level, the default controls are reminded to the player.
 ## 5.3. HUD Elements
 To guide the player, there are 3 pieces of data displayed on screen during gameplay:
 
@@ -309,7 +313,10 @@ It represents the number of enemies the player must kill in order to complete th
 # 6. Optimization
 
 ## 6.1. Performance
-(TO BE UPDATED)
+
+Unreal Engine provides us many features and possibility to build our game. However, the game's size became heavier the more we use countless assets, such as tiles which take a lot of place.
+
+We also need to make the game's screen resolution appealing enough to make the player motivated to play Ronin's Revenge.
 
 ## 6.2. Memory Usage
 (TO BE UPDATED)
@@ -318,7 +325,6 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 
 
 # 7. Glossary
-(TO BE UPDATED)
 | word                                                                                                |                                                                                                    definition                                                                                                    |
 | --------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <span id="Animation">Animation</span> | Process of creating an illusion of motion using a sequence of static images that slightly differ from each other.     |
