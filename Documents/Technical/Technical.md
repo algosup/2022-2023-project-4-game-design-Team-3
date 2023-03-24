@@ -138,10 +138,21 @@ Unreal Editor
 
 (TO BE UPDATED)
 
+C
+
+Toolbar
+
+Viewport   Construction Script    Event Graph
+
 
 
 ## 2.3. 3rd Party Softwares/libraries
 
+Google sheets
+
+Github
+
+Visual Studio code
 
 # 3. Game Mechanics
 
@@ -164,6 +175,10 @@ Crouch: The player can crouch, so he will have a kneeling animation. As a result
 (TO BE UPDATED)
 Character Components
 
+Paper2D.PaperCharacter parent class
+
+Paper character
+
 
 -Walk:
 waking speed - turning speed - slowing down- sensibility
@@ -180,20 +195,36 @@ range- endlag - frames - combo -
 -Protect:
 range- lag
 
+collision
+
 
 ## 3.3. Level Settings
-(TO BE UPDATED)
-The character move through a serie of levels, containing enemies and platforms.
 
-To finish the level, the player must accomplish a certain goal. If he succeeds, he will be instantly teleported in the next level.
+### 3.3.1 Setting up a level
+The game contains 6 levels in total: 3 regular levels, and 3 boss levels.
 
-Here are the 3 types of goal he will have fo face:
+A level is one of the basic assets, defined as a collection of actors (light, volumes, mesh instances...). In Unreal Engine, multiple levels can be loaded and unloaded into the World for creating a streaming experience.
 
--Kill every enemies: Most of the levels are full of villains who wants to kill Kazuo. To win this level, the player must kill every enemies of the map.
+When creating one, we are able to build a new world by integrating as many assets as we want, such as character sprites, tiles, decorations, and other optsions like the light direction.
 
--Reach a certain point of the map: Sometimes, the player will be alone and will need to reach a particular area (black square) in order to be teleported to the next level. He will eventually need to jump on platforms, but he will have to arrive to the end before time is out.
+By selecting the tool "Blueprints'" in the main Toolbar, we can access to the Open Level Blueprints. Shown in an event graph, they are used to set the number of enemies to kill to succeed the level, how much time the player must win, and other options.
 
--Defeat the boss: In this particular level, the player will face an enemy stronger than any common foes. They have several HPs, and the player must find the right strategy to defeat him before he is killed or time's out. If he succeeds, the boss will drops a parchment that the player must pick up to finish the level. It will contain a certain message about the Samuraï's code.
+A blueprint class is also used to allow the loading of the game and indicate the next level which will load once the first level is done. For now, we don't have to save our game due to our decision to make the player start over to the beginning if he dies.
+
+### 3.3.2 Level organization.
+
+For the regular levels, the player has to move through a wide space, containing enemies and platforms.
+
+To finish the level, the player doesn't only have to reach the end of the map, he also needs to kill every enemy present in place. If he succeeds, he will be instantly teleported in the next level.
+
+All enemy will want to kill the player, so he will need to defend himself from them and travel towards the level by jumping on platforms. Moreoever, he will have to arrive to the end before time is out.
+
+Regarding the boss levels: the player will face an enemy stronger than any common foes. The bosses have several HPs, and the player must find the right strategy to defeat him before he is killed or if he runs out of time. 
+
+If he succeeds, the boss will drops a parchment that the player must pick up to finish the level. It will contain a random message about the Samuraï's code.
+
+The levels are organized in a way a regular level is followed by a boss level, that is itself followed by the next regular level.
+
 
 
 # 4. Game Assets
