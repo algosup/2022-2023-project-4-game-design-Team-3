@@ -47,9 +47,6 @@
   - [5.3. HUD Elements](##5.3-hud-elements)
 
 - [6. Optimization](#6-optimization)
-  - [6.1. Performance](##6.1-performance)
-  - [6.2. Memory Usage](##6.2-memory-usage)
-
 
 - [7. Glossary](#7-glossary)
 
@@ -286,13 +283,8 @@ The game opens on a main menu, showing the game's title, the character artwork, 
 
 With his mouse, the player has a menu of 3 different choices:
 -Start Game: allows you to load the game before you start playing.
--Options: lead you to another menu for changing sound, etc...
+-Options: display a widget allowing you to activate/deactivate the menu music and the in-game music,change the screen resolution (640 x 480pp, 1280 x 720pp, full screen) and modify the control inputs.
 -Quit: you can quit the game and close the application.
-
-On the top right corner, a blue square is indicating you the controls inputs:
--Arrows: Left, Right and Jump
--A,Z: Attack
--Esc (escape): pause.
 
 When you are playing the game but you decide to pause, the game stops, and you have 3 choices appearing in the middle of the screen:
 -Resume: stop the pause and continue to play. 
@@ -332,14 +324,9 @@ It represents the number of enemies the player must kill in order to complete th
 
 # 6. Optimization
 
-## 6.1. Performance
-
 Unreal Engine provides us many features and possibility to build our game. However, the game's size became heavier the more we use countless assets, such as tiles which take a lot of place.
-
 We also need to make the game's screen resolution appealing enough to make the player motivated to play Ronin's Revenge.
 
-## 6.2. Memory Usage
-(TO BE UPDATED)
 Dealing with the memory used for creating our game will be important. Indeed, we want to avoid having issues when pushing the game's codes and files in github. So, the game's performance must remain almost untouched when transferring data in the main branch of our project.
 
 
