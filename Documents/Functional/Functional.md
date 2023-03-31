@@ -30,7 +30,6 @@
   - [Characters](#characters)
 - [Design](#design)
   - [Character Design](#character-design)
-  - [Level Design](#level-design)
 - [Future Features](#future-features)
 </details>
 
@@ -96,15 +95,7 @@ A samurai must use all his skills and cunning to overcome the challenges before 
 | Onre Boss 1  | <img src="/Documents/Functional/Images/Onre.png" alt="Onre" width="100" height="100"> | It is the first boss you have to beat to access to the end of the first level and to start the second one. |
 | Gotoku Boss 2  | <img src="/Documents/Functional/Images/Gotoku.png" alt="Gotoku" width="100" height="100"> | It is the second boss you have to beat to access to the end of the second level and to start the last one. |
 | Akira Final Boss |<img src="/Documents/Functional/Images/Akira.png" alt="Akira" width="100" height="100">| She is the lord of your character, Kazuo. She betrayed you and make a pact with the devil to acquire more power and notoriety. |
-## Level Design
-| Level   | Picture | Description |
-|---------|---------|-------------|
-| Level 1 |         |             |
-| Boss Arena 1 |         |             |
-| Level 2 |         |             |
-| Boss Arena 2 |         |             |
-| Level 3 |         |             |
-| Boss Arena 3 |         |             |
+
 # Future Features
 
 For the future of this game we can add some new features:
