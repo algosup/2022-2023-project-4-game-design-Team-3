@@ -42,9 +42,8 @@
 | Protocol | Run through the game and test each basic movement control, taking note of any bugs or glitches that occur. Try different combinations of the movement controls to ensure they work seamlessly together. |
 |---|---|
 - Verify that the player can perform a double jump.
-- Verify that the player can crouch.
 - Verify that the player can perform a combo attack.
-- Verify that the player can dodge enemy attacks.
+- Verify that the player can perform a dash.
 ## Boss Fight Mechanics:
 |Protocol| Play through each boss fight multiple times and test different strategies for defeating the bosses. Take note of the patterns and behaviors of each boss and ensure they are consistent each time. Check that the difficulty level of the bosses scales appropriately with the progression of the game. |
 |---|---|
