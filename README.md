@@ -2,7 +2,7 @@
 
 # Ronin's Revenge
 
-<img src="Ronins_Revenge.png" alt= “” width="400px" height="400px">
+<img src="Documents/image/Ronins_Revenge_1.png" alt= “” width="400px" height="400px">
 
 ## Overview
 
