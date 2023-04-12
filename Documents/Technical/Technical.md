@@ -130,7 +130,7 @@ When discovering Unreal Engine while ccreating a scene, there are several tools 
 
 By default, Unreal Engine 4 will open to this interface named the Level Editor: 
 
-<img src="./Images/LevelEditor.png" width="100" height="100" />
+<img src="./Images/LevelEditor.png" width="500" height="500"  />
 
 It's the primary editor where we construct our gameplay levels.  Indeed, it provide us the core level creation functionality for Unreal Editor. Its purpose it to help is create, view, and modify levels, by mainly placing, transforming, and editing the properties of Actors.
 
@@ -144,7 +144,7 @@ Above the scene, a panel is displaying a group of commands, providing quick acce
 
 Another important editor is the Blueprint editor: it's where we work and modify blueprints. It has different features:
 
-<img src="./Images/BlueprintEditor.png" width="100" height="100" />
+<img src="./Images/BlueprintEditor.png" width="500" height="500"  />
 
 - Viewport: it's the window where we can examine the object. Just like the level editor for scenes, we can change the perspective and see, as an example, how our character would look like.   
 - Event Graph: it contains a node graph that uses events and function for calling  to perform actions in response to gameplay events related the Blueprint. Indeed, this is where we focus on the programming of our character's behavior depending on the player's input.
@@ -155,12 +155,12 @@ And for our 2D Side Scrolling game, we also used these editors very often:
 
 - Paper 2D Sprite Editor: it's a tool to set up and edit individual sprite assets. We can decide its dimension, its collision settings, and also the sprite its based from.
 
-<img src="./Images/spriteEditor.png" width="100" height="100" />
+<img src="./Images/spriteEditor.png" width="500" height="500"  />
 
 
 - Flipbook editor: for dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed.
 
-<img src="./Images/flipbookEditor.png" width="100" height="100" />
+<img src="./Images/flipbookEditor.png" width="500" height="500" />
 
 
 The flipbook editor allow us to create and/or preview 2D animations by using our sprite assets. Then, we tune or tweak the duration in which a sprite is displayed, but we can determine the overall playback speed of the Flipbook animation through the Frames Per Second option.
@@ -338,7 +338,7 @@ Dealing with the memory used for creating our game will be important. Indeed, we
 
 By the way, we can import 2D sprites more easily using the level of details. For that, we view the Source Texture of the sprite, and we set the Texture group to 2D pixels.
 
-<img src="./Images/LevelOfDetails.png" width="100" height="100" />
+<img src="./Images/LevelOfDetails.png" width="500" height="500" />
 
 It will allow 2D pixelized sprites to have an higher definition and allow the game to perform better. 
 
