@@ -108,7 +108,7 @@ Generally, Blueprints are visually scripted additions to our game. They allow us
 
 -Level Blueprint: It's a specialized type of Blueprint that act as a level-wide global event graph. Each level in our project has its own Level Blueprint created by default that can be edited within the Unreal Editor, but cannot be created through the editor interface.
 
-Furthemore, it's used to reference and manipulate Actors within the level, control cinematics using Matinee Actors, and manage things like level streaming, checkpoints, and other level-related systems. 
+Furthemore, it's used to reference and manipulate Actors within the level, control cinematics using camera Actors, and manage things like level streaming, checkpoints, and other level-related systems. 
 
 -Blueprints class:It's an asset allowing content creators to easily add functionality on top of existing gameplay classes. Created inside Unreal Editor, it defines a new class of Actor which can then be placed into maps as instances that have a specific behavior.
 
@@ -128,8 +128,9 @@ When discovering Unreal Engine while ccreating a scene, there are several tools 
 
 #### 2.2.3.1 Level Editor
 
-By default, Unreal Engine 4 will open to this interface named the Level Editor:
+By default, Unreal Engine 4 will open to this interface named the Level Editor: 
 
+<img src="./Images/LevelEditor.png" width="100" height="100" />
 
 It's the primary editor where we construct our gameplay levels.  Indeed, it provide us the core level creation functionality for Unreal Editor. Its purpose it to help is create, view, and modify levels, by mainly placing, transforming, and editing the properties of Actors.
 
@@ -143,6 +144,8 @@ Above the scene, a panel is displaying a group of commands, providing quick acce
 
 Another important editor is the Blueprint editor: it's where we work and modify blueprints. It has different features:
 
+<img src="./Images/BlueprintEditor.png" width="100" height="100" />
+
 - Viewport: it's the window where we can examine the object. Just like the level editor for scenes, we can change the perspective and see, as an example, how our character would look like.   
 - Event Graph: it contains a node graph that uses events and function for calling  to perform actions in response to gameplay events related the Blueprint. Indeed, this is where we focus on the programming of our character's behavior depending on the player's input.
 
@@ -152,8 +155,12 @@ And for our 2D Side Scrolling game, we also used these editors very often:
 
 - Paper 2D Sprite Editor: it's a tool to set up and edit individual sprite assets. We can decide its dimension, its collision settings, and also the sprite its based from.
 
+<img src="./Images/spriteEditor.png" width="100" height="100" />
+
 
 - Flipbook editor: for dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed.
+
+<img src="./Images/flipbookEditor.png" width="100" height="100" />
 
 
 The flipbook editor allow us to create and/or preview 2D animations by using our sprite assets. Then, we tune or tweak the duration in which a sprite is displayed, but we can determine the overall playback speed of the Flipbook animation through the Frames Per Second option.
@@ -167,8 +174,6 @@ We are using several other softwares to help us with the project management:
 - Github: a famous code hosting platform for version control and collaboration. We use it to push progress on our game's scene and its related documentation.
 
 - Visual Studio Code: a code editor used to write programs, but also to build and debugg modern web and cloud applications. However, we mostly use it to write our documentation in markdown format.
-
-- ChatGPT: a chatbot prototype using Artificial Intelligence developped by OpenAI. We sometimes use it to ask diverse questions.
 
 # 3. Game Mechanics
 
@@ -221,11 +226,9 @@ Another component show the character's movement: it allows to hand the players d
 
 -Jump: Kazuo has a jump velocity of 100, with a air control of 0.8 to allow the character's movement in the airs.
 
--Attack: Kazuo's sprite has a box collider which is its attack hitbox. It has a length of /// and a width of ///, and is activated when the player press the Attack input.
+-Attack: Kazuo's sprite has a box collider which is its attack hitbox and is activated when the player press the Attack input.
 
-The first attack last /// frames and has a endlag of /// frames.
-The second attack last /// frames and has a endlag of /// frames.
-The third attack last /// frames and has a endlag of /// frames.
+
 
 ## 3.3. Level Settings
 
@@ -269,7 +272,7 @@ Here are the list of game assets we used for the making of our game:
 | FREE MARKET CARTOON 2D GAME TILESET  | [Link](https://craftpix.net/freebies/free-market-cartoon-2d-game-tileset/)   | Tileset and objects for 2D platformer   | <img src="./Images/Asset6.png" width="100" height="100" />   |
 | FREE BUSH ASSETS PIXEL ART PACK  | [Link](https://craftpix.net/freebies/free-bush-assets-pixel-art-pack/)   | Objects for 2D platformer   | <img src="./Images/Asset7.png" width="100" height="100" />  |
 | FREE ROCKS PIXEL ART ASSET PACK  | [Link](https://craftpix.net/freebies/free-rocks-pixel-art-asset-pack/?num=1&count=12&sq=rock&pos=2)   | Objects for 2D platformer   |<img src="./Images/Asset8.png" width="100" height="100" />   |
-| Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | <img src="./Images/Asset9.png" width="100" height="100" />   |
+| PIXEL FANTASY "CAVES"  | [Link](https://szadiart.itch.io/pixel-fantasy-caves)   | Tileset and objects for 2D platformer   |<img src="./Images/Asset9.png" width="100" height="100" />   |
 | Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | 2D Flame spritesheet   |<img src="./Images/Asset10.png" width="100" height="100" />   |
 | FREE DUNGEON PLATFORMER PIXEL ART TILESET  | [Link](https://craftpix.net/freebies/free-dungeon-platformer-pixel-art-tileset/?num=1&count=15&sq=lava&pos=4)   | Tileset and objects for 2D platformer   |<img src="./Images/Asset11.png" width="100" height="100" />   |
 | FREE MOUNTAIN BACKGROUNDS PIXEL ART  | [Link](https://craftpix.net/freebies/free-mountain-backgrounds-pixel-art/?num=1&count=1223&sq=2d%20ice%20mountain&pos=4)   | 2D Game Backgrounds   |<img src="./Images/Asset12.png" width="100" height="100" />   |
@@ -277,8 +280,7 @@ Here are the list of game assets we used for the making of our game:
 | Game grounds with texture of ice, water and lava  | [Link](https://www.freepik.com/free-vector/game-grounds-with-texture-ice-water-lava_21329661.htm#query=ice%20caves%202d&position=23&from_view=search&track=ais)   | 2D Game Backgrounds   |<img src="./Images/Asset14.png" width="100" height="100" />   |
 | FREE SKY WITH CLOUDS BACKGROUND PIXEL ART SET  | [Link](https://craftpix.net/freebies/free-sky-with-clouds-background-pixel-art-set/)   | 2D Game Backgrounds   |<img src="./Images/Asset15.png" width="100" height="100" />   |
 | Free Pixel Art Forest  | [Link](https://edermunizz.itch.io/free-pixel-art-forest)   | 2D Game Backgrounds   |<img src="./Images/Asset16.png" width="100" height="100" />   |
-
-
+| Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | <img src="./Images/Asset17.png" width="100" height="100" />   |
 
 
 # 5. User Interface
@@ -333,6 +335,12 @@ Unreal Engine provides us many features and possibility to build our game. Howev
 We also need to make the game's screen resolution appealing enough to make the player motivated to play Ronin's Revenge.
 
 Dealing with the memory used for creating our game will be important. Indeed, we want to avoid having issues when pushing the game's codes and files in github. So, the game's performance must remain almost untouched when transferring data in the main branch of our project.
+
+By the way, we can import 2D sprites more easily using the level of details. For that, we view the Source Texture of the sprite, and we set the Texture group to 2D pixels.
+
+<img src="./Images/LevelOfDetails.png" width="100" height="100" />
+
+It will allow 2D pixelized sprites to have an higher definition and allow the game to perform better. 
 
 
 
