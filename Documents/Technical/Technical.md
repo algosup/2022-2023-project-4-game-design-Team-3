@@ -153,7 +153,6 @@ And for our 2D Side Scrolling game, we also used these editors very often:
 - Paper 2D Sprite Editor: it's a tool to set up and edit individual sprite assets. We can decide its dimension, its collision settings, and also the sprite its based from.
 
 
-
 - Flipbook editor: for dealing with the sprite's animations, the editor uses flipbooks. Also referenced as 2D Paper flipbooks, it's an hand-drawn animation where a series of images are "flipped" through to produce motion. Indeed, flipbooks are a series of key frames, each of them containing a sprite to be displayed.
 
 
@@ -272,6 +271,12 @@ Here are the list of game assets we used for the making of our game:
 | FREE ROCKS PIXEL ART ASSET PACK  | [Link](https://craftpix.net/freebies/free-rocks-pixel-art-asset-pack/?num=1&count=12&sq=rock&pos=2)   | Objects for 2D platformer   |<img src="./Images/Asset8.png" width="100" height="100" />   |
 | Pixel Cave Background  | [Link](https://cutewallpaper.org/21/pixel-cave-background/view-page-21.html)   | Backgrounds for 2D platformer   | <img src="./Images/Asset9.png" width="100" height="100" />   |
 | Campfire pixel art 32px  | [Link](https://itch.io/game-assets/tag-campfire)   | 2D Flame spritesheet   |<img src="./Images/Asset10.png" width="100" height="100" />   |
+| FREE DUNGEON PLATFORMER PIXEL ART TILESET  | [Link](https://craftpix.net/freebies/free-dungeon-platformer-pixel-art-tileset/?num=1&count=15&sq=lava&pos=4)   | Tileset and objects for 2D platformer   |<img src="./Images/Asset11.png" width="100" height="100" />   |
+| FREE MOUNTAIN BACKGROUNDS PIXEL ART  | [Link](https://craftpix.net/freebies/free-mountain-backgrounds-pixel-art/?num=1&count=1223&sq=2d%20ice%20mountain&pos=4)   | 2D Game Backgrounds   |<img src="./Images/Asset12.png" width="100" height="100" />   |
+| Starter Tiles - Platformer  | [Link](https://ninjikin.itch.io/starter-tiles)   | Tileset and objects for 2D platformer   | <img src="./Images/Asset13.png" width="100" height="100" />   |
+| Game grounds with texture of ice, water and lava  | [Link](https://www.freepik.com/free-vector/game-grounds-with-texture-ice-water-lava_21329661.htm#query=ice%20caves%202d&position=23&from_view=search&track=ais)   | 2D Game Backgrounds   |<img src="./Images/Asset14.png" width="100" height="100" />   |
+| FREE SKY WITH CLOUDS BACKGROUND PIXEL ART SET  | [Link](https://craftpix.net/freebies/free-sky-with-clouds-background-pixel-art-set/)   | 2D Game Backgrounds   |<img src="./Images/Asset15.png" width="100" height="100" />   |
+| Free Pixel Art Forest  | [Link](https://edermunizz.itch.io/free-pixel-art-forest)   | 2D Game Backgrounds   |<img src="./Images/Asset16.png" width="100" height="100" />   |
 
 
 
