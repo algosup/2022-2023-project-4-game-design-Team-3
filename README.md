@@ -4,6 +4,8 @@
 
 <img src="Documents/image/Ronins_Revenge_1.png" alt= “” width="400px" height="400px">
 
+
+
 ## Overview
 
 Ronin's Revenge is a 2D platformer built on Unreal 4, where you play as a samurai seeking revenge for his betrayal. The game features fast-paced action, and a range of unique enemies.
@@ -12,7 +14,9 @@ Ronin's Revenge is a 2D platformer built on Unreal 4, where you play as a samura
 
 To install Samurai Revenge, you need to have Unreal Engine 4 installed. Then, follow these steps:
 
-1. Download the game from [INSERT LINK HERE].
+1. Download the game for Mac from [https://drive.google.com/file/d/12tRd9G7y0paNPiQskdx3QhFWO8Wm8zh_/view?usp=share_link].<br>
+Download the game for Mac from [https://drive.google.com/file/d/12tRd9G7y0paNPiQskdx3QhFWO8Wm8zh_/view?usp=share_link].
+
 2. Extract the files to your preferred location.
 3. Run the executable file.
 
